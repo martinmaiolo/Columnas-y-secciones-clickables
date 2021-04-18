@@ -1,0 +1,20 @@
+Columnas y secciones clickables:
+ 
+JS:
+<script>
+document.getElementById("columna-click").onclick = function() {myFunction()};
+function myFunction() {
+window.open("https://www.google.com", "_blank");
+}
+</script>
+ 
+CSS:
+selector { cursor: pointer }
+ 
+– Texto subrayado gordo:
+CSS:
+.subrayado-gordo {
+padding:0 .2em;
+box-shadow: inset 0 -.6em #0DBE8A;
+}
+
